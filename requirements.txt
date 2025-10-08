@@ -1,0 +1,8 @@
+# Minimal pinned dependencies for reproducibility
+# Created: 2025-10-08
+
+pandas==2.3.3
+numpy==2.0.2
+matplotlib==3.9.4
+nbconvert==7.16.4
+jupyterlab==4.2.5

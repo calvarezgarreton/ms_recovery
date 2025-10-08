@@ -1,0 +1,14 @@
+# macOS Finder metadata files
+**/.DS_Store
+
+# Python virtual environments
+**/.venv/
+source
+
+
+# pending notes
+notas
+
+
+
+
