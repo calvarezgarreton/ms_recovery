@@ -4,11 +4,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-from statsmodels.tsa.seasonal import seasonal_decompose
-from sklearn.linear_model import LinearRegression
 from matplotlib import rc
 import os
-from statsmodels.api import OLS, add_constant
 from collections import OrderedDict
 
 rc('mathtext', default='regular')
@@ -69,15 +66,15 @@ def make_lag_ranges(lag_increase=1, n_windows=10, incr_type = 1):
     return ranges, widths, incr_name
 
 
-def rolling_predictors(series, lag_ranges=None, standardize=True):
+def rolling_predictors(series, lag_ranges, standardize=True):
     """
     Given a (monthly) pd.Series, build predictors as rolling means over each
     lag window, shifted to start at the given lag. Returns a DataFrame with
     one column per window (same names as lag_ranges keys).
     Ensures only full windows (no NaNs) are used in calculations.
     """
-    if lag_ranges is None:
-        lag_ranges = make_lag_ranges()
+    # if lag_ranges is None:
+    #     lag_ranges = make_lag_ranges()
 
     s = pd.Series(series).sort_index()
     preds = {}
@@ -92,4 +89,3 @@ def rolling_predictors(series, lag_ranges=None, standardize=True):
         df = (df - df.mean()) / df.std()
 
     return df
-

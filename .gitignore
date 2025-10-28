@@ -3,12 +3,27 @@
 
 # Python virtual environments
 **/.venv/
-source
+**/source/
+**/data/
 
+analysis/__pycache__
 
 # pending notes
-notas
+**/notas
+**/analysis/2_run_LR_gw/csv/*.csv
+**/analysis/3_run_LR_Q/csv/*.csv
 
+# exploratory plots
+**/analysis/2_run_LR_gw/figs_obs_sim_trained_all/
+**/analysis/2_run_LR_gw/figs_obs_sim_trained_pre_MD/
+**/analysis/2_run_LR_gw/__pycache__
 
+**/analysis/3_run_LR_Q/figs_obs_sim_trained_all/
+
+**/analysis/4_GW_Q_memory/figs_gw/
+**/analysis/4_GW_Q_memory/figs_q/
+
+**/analysis/5_recovery/figs_gw_recovery/
+**/analysis/5_recovery/figs_q_recovery/
 
 

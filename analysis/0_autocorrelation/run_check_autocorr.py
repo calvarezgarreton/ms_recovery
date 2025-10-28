@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Run the autocorrelation checks from the notebook as a script.
-# To run from terminal: ../.venv/bin/python 0_check_autocorr.py
+# To run from terminal: python3 0_check_autocorr.py
 
 Creates two PNG figures in the current directory:
 - 0_fig_autocorr_gw.png
@@ -12,8 +12,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Paths (repo-local)
-GW_CLEAN_PATH = Path('../data/cr2sub/cr2sub_v1.1_gwl_mon_clean.csv')
-Q_MON_PATH = Path('../data/camels/q_mm_dga_mon_ts_1960_2025.csv')
+GW_CLEAN_PATH = Path('../../data/cr2sub/cr2sub_v1.1_gwl_mon_clean.csv')
+Q_MON_PATH = Path('../../data/camels/q_mm_dga_mon_ts_1960_2025.csv')
 FIG_GW_PATH = Path('0_fig_autocorr_gw.png')
 FIG_Q_PATH = Path('0_fig_autocorr_q.png')
 
