@@ -26,4 +26,6 @@ analysis/__pycache__
 **/analysis/5_recovery/figs_gw_recovery/
 **/analysis/5_recovery/figs_q_recovery/
 
+analysis/5_recovery/csv
+
 
