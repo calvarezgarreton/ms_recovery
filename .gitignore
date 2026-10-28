@@ -6,27 +6,27 @@
 **/source/
 **/data/
 
-analysis/__pycache__
+**/__pycache__
 
 # pending notes
 /notas
-/analysis/2_run_LR_gw/csv/*.csv
-/analysis/3_run_LR_Q/csv/*.csv
+**/2_run_LR_gw/csv/*.csv
+**/3_run_LR_Q/csv/*.csv
 
 # exploratory plots
-/analysis/2_run_LR_gw/figs_obs_sim_trained_all/
-/analysis/2_run_LR_gw/figs_obs_sim_trained_pre_MD/
-/analysis/2_run_LR_gw/__pycache__
+**/2_run_LR_gw/figs_obs_sim_trained_all/
+**/2_run_LR_gw/figs_obs_sim_trained_pre_MD/
+**/2_run_LR_gw/__pycache__
 
-/analysis/3_run_LR_Q/figs_obs_sim_trained_all/
+**/3_run_LR_Q/figs_obs_sim_trained_all/
 
-/analysis/4_GW_Q_memory/figs_gw/
-/analysis/4_GW_Q_memory/figs_q/
+**/4_GW_Q_memory/figs_gw/
+**/4_GW_Q_memory/figs_q/
 
-/analysis/5_recovery/figs_gw_recovery/
-/analysis/5_recovery/figs_q_recovery/
+**/5_recovery/figs_gw_recovery/
+**/5_recovery/figs_q_recovery/
 
-/analysis/5_recovery/csv
+**/5_recovery/csv
 
-/figures_poster_SICyR_2025/
+**/figures_poster_SICyR_2025/
 
