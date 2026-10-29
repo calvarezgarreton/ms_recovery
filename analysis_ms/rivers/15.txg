@@ -1,0 +1,43 @@
+Format: JP2
+Description: 15 - 15a egm2008-1
+JPEG-2000 formato JP2
+Image type: 16-bit unsigned
+Image size: 12406 columns by 15355 lines
+Resolution: 12.5 (column) by 12.5 (line) meters per cell
+Units: metros
+Corners:
+   Upper Left:  354322.12 E  8065246.256 N
+  Upper Right:  509397.12 E  8065246.256 N
+   Lower Left:  354322.12 E  7873308.756 N
+  Lower Right:  509397.12 E  7873308.756 N
+
+Coordinate Reference System:
+Nombre: WGS84 / UTM zone 19S (CM 69W)
+Proyección: UTM zone 19S (CM 69W)
+   Método: Mercator Transversa
+   Latitud de origen natural: N 0 00 00.000
+   Longitud de origen natural: W 69 00 00.000
+   Factro de escala en el origen natural: 0.9996
+   Falso Este: 500000 m
+   Falso Norte: 10000000 m
+Datum: Sistema Geodésico Mundial 1984 (WGS84)
+   Tipo: Geodésico
+   Época: 1984
+   Elipsoide: WGS 1984
+      Eje semi-mayor 6378137
+      Aplanamiento Inverso: 298.257224
+   Meridiano Principal: Greenwich
+   Área Válida
+      Mundo
+Sistema de Coordenadas...
+   Tipo: Proyectado
+   Eje 1: Este
+      Unidad: metro
+      Símbolo: E
+   Eje 2: Norte
+      Unidad: metro
+      Símbolo: N
+
+  Note: Georeference control points are at outside edges of image.
+        This is the upper left corner of the upper left cell,
+        the upper right corner of the upper right cell, etc.

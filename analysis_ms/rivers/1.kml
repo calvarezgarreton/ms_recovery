@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<kml>
+  <GroundOverlay>
+    <description>1 - 1a egm2008-1</description>
+    <name>1.jp2</name>
+    <name>1</name>
+    <LookAt>
+      <longitude>-69.339363926814926</longitude>
+      <latitude>-20.281185422466883</latitude>
+      <tilt>0</tilt>
+      <range>2683694.954386631</range>
+      <heading>0.0069647715540661339</heading>
+    </LookAt>
+    <Icon>1.jp2</Icon>
+    <LatLonBox>
+      <north>-18.931060048799747</north>
+      <south>-21.63131079613402</south>
+      <east>-68.394395837215541</east>
+      <west>-70.284332016414311</west>
+      <rotation>0.0069647715540661339</rotation>
+    </LatLonBox>
+  </GroundOverlay>
+</kml>

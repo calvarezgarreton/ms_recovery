@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<kml>
+  <GroundOverlay>
+    <description>3</description>
+    <name>3.jp2</name>
+    <name>3</name>
+    <LookAt>
+      <longitude>-69.845348097790819</longitude>
+      <latitude>-27.402739084750344</latitude>
+      <tilt>0</tilt>
+      <range>6918471.952617825</range>
+      <heading>0.01663310713242129</heading>
+    </LookAt>
+    <Icon>3.jp2</Icon>
+    <LatLonBox>
+      <north>-25.267967287442499</north>
+      <south>-29.537510882058193</south>
+      <east>-68.244981192478988</east>
+      <west>-71.445715003102649</west>
+      <rotation>0.01663310713242129</rotation>
+    </LatLonBox>
+  </GroundOverlay>
+</kml>

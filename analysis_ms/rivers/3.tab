@@ -1,0 +1,12 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  File "3.jp2"
+  Type "RASTER"
+  (253693.696,7203135.256) (0,0) Label "Pt 1",
+  (573143.696,7203135.256) (25556,0) Label "Pt 2",
+  (253693.696,6732235.256) (0,37672) Label "Pt 3",
+  (573143.696,6732235.256) (25556,37672) Label "Pt 4"
+CoordSys Earth Projection 8, 104, "m", -69.000000, 0.000000, 0.999600, 500000.000000, 10000000.000000

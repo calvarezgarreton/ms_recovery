@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<kml>
+  <GroundOverlay>
+    <description>15 - 15a egm2008-1</description>
+    <name>15.jp2</name>
+    <name>15</name>
+    <LookAt>
+      <longitude>-69.641363334985712</longitude>
+      <latitude>-18.363971318151599</latitude>
+      <tilt>0</tilt>
+      <range>1293328.7517084556</range>
+      <heading>0.0069496157800749431</heading>
+    </LookAt>
+    <Icon>15.jp2</Icon>
+    <LatLonBox>
+      <north>-17.494218595530523</north>
+      <south>-19.233724040772671</south>
+      <east>-68.910590563550031</east>
+      <west>-70.372136106421394</west>
+      <rotation>0.0069496157800749431</rotation>
+    </LatLonBox>
+  </GroundOverlay>
+</kml>
