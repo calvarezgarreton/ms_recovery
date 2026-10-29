@@ -4,7 +4,7 @@
 # Python virtual environments
 **/.venv/
 **/source/
-**/data/
+# **/data/
 
 **/__pycache__
 
