@@ -30,3 +30,6 @@
 
 **/figures_poster_SICyR_2025/
 
+
+.ipynb_checkpoints/
+.Rhistory
