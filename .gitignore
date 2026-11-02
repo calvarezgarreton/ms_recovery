@@ -33,3 +33,4 @@
 
 .ipynb_checkpoints/
 .Rhistory
+!**/3_run_LR_Q/csv/*.csv
